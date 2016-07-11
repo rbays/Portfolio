@@ -1,0 +1,17 @@
+header{
+	text-shadow: rgba(0,0,0,0.7) 2px 2px 2px;
+}
+
+#page-top{
+	text-shadow: rgba(0,0,0,0.7) 1px 1px 1px;
+}
+
+.btn {
+	box-shadow: rgba(0,0,0,0.3) -1px -1px 1px 1px;
+	text-shadow: none;
+}
+
+
+
+
+
