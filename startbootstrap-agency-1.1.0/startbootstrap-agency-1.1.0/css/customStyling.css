@@ -11,7 +11,28 @@ header{
 	text-shadow: none;
 }
 
+.timeline>li .timeline-image {
+	border-color:#fed136;
+}
+
+.timeline:before{
+	background-color: #fed136;
+}
+
+.text-muted{
+	text-shadow: none;
+	font-weight:bold;
+}
+
+.text-muted b{
+	font-weight:bolder;
+}
 
 
+.text-muted a{
+	color:#88e;
+}
 
-
+.navbar-custom .navbar-brand{
+	/*font-family: 'Pacifico', cursive;*/
+}
