@@ -1,38 +1,163 @@
+body{
+	--btn-clr:#6b9541;
+	--btn-clr2:#92955e;
+	--txt-head-clr:#98a3a3;
+	--txt-head-clr2:#a8a3a3;
+	--btn-txt-clr:#18403e;
+	--bg-clr:#444;
+	--bg-clr-2:#555;
+	--section-title-clr:#307e67;
+	--main-text:#52a9a5;
+	--timeline-clr:#cee4db;
+	background-color: cee4db;
+}
+
+/*background colors*/
+#me,#skills{
+	background-color: var(--bg-clr);
+}
+#projects{
+	background-color: var(--bg-clr-2);
+}
+
+
+
+/*header*/
+header {
+  background-image: url('../img/potentialPics/River2.jpg');
+}
+.navbar-custom .navbar-brand{
+	color:var(--btn-clr);
+	text-shadow: rgba(0,0,0,0.6) 1px 1px 1px;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active{
+	color:var(--btn-clr2);
+}
 header{
 	text-shadow: rgba(0,0,0,0.7) 2px 2px 2px;
+	color: var(--txt-head-clr);
+}
+.navbar-custom .nav li a{
+	color: var(--txt-head-clr);
+	text-shadow: rgba(0,0,0,0.7) 1px 1px 1px;	
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus{
+	color: var(--txt-head-clr2);
+	text-shadow: rgba(0,0,0,0.7) 1px 1px 1px;	
+}
+.navbar-custom .navbar-nav>.active>a{
+	background-color:var(--btn-clr);
+	color:var(--txt-head-clr);
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: var(--txt-head-clr2);
+  background-color: var(--btn-clr2);
+}
+::-moz-selection {
+  text-shadow: none;
+  background: var(--btn-clr);
+}
+::selection {
+  text-shadow: none;
+  background: var(--btn-clr);
+}
+.navbar-custom .navbar-toggle {
+    background-color: var(--btn-clr);
+    border-color: var(--btn-clr);
+    font-size: 12px;
 }
 
-#page-top{
-	text-shadow: rgba(0,0,0,0.7) 1px 1px 1px;
+.navbar-custom .navbar-toggle:hover {
+    background-color: var(--btn-clr2);
+    border-color: var(--btn-clr2);
+    font-size: 12px;
 }
 
-.btn {
-	box-shadow: rgba(0,0,0,0.3) -1px -1px 1px 1px;
-	text-shadow: none;
+/*font colors in the body*/
+.section-heading, section#contact .section-heading{
+	color:var(--section-title-clr);
 }
-
-.timeline>li .timeline-image {
-	border-color:#fed136;
+.timeline-heading, .service-heading, h4 {
+	color:var(--section-title-clr);
 }
-
-.timeline:before{
-	background-color: #fed136;
-}
-
 .text-muted{
+	font-family: 'Raleway', sans-serif;
 	text-shadow: none;
-	font-weight:bold;
+	font-weight:400;
+	color:var(--main-text);
 }
-
 .text-muted b{
-	font-weight:bolder;
+	font-weight:700;
 }
-
-
 .text-muted a{
 	color:#88e;
 }
 
-.navbar-custom .navbar-brand{
-	/*font-family: 'Pacifico', cursive;*/
+
+
+
+.btn {
+	background-color: var(--btn-clr);
+	box-shadow: rgba(0,0,0,0.5) 2px 2px 2px 2px;
+	text-shadow: none;
+	color: var(--btn-txt-clr);
+	border-color: var(--btn-clr);
 }
+
+.btn:hover{
+	color: var(--btn-txt-clr);
+	background-color: var(--btn-clr2);
+	border-color: var(--btn-clr2);
+	box-shadow: rgba(0,0,0,0.5) 1px 1px 1px 1px;
+}
+
+/*skills*/
+.fa-circle{
+	color:var(--btn-clr);
+}
+
+
+/*my story*/
+#story{
+	background-image:url(../img/potentialPics/water.png);
+	background-position: centre;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.timeline>li .timeline-image {
+	border-color:var(--timeline-clr);
+	background-color: var(--timeline-clr);
+}
+.timeline-panel{
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+.timeline-heading{
+	text-shadow:rgba(0,0,0,0.6) 1px 1px 1px;
+	padding-top:10px;
+}
+
+.timeline:before{
+	background-color: var(--timeline-clr);
+}
+.fa-plus{
+	color:var(--btn-clr);
+	text-shadow: rgba(0,0,0,0.5) 1px 1px 1px ;
+}
+.fa-plus:hover{
+	color:var(--btn-clr2);
+	text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
